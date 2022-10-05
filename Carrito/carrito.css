@@ -1,0 +1,13 @@
+.card {
+  width: 400px;
+}
+
+.objetos {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .objetos {
+    flex-direction: column;
+  }
+}
